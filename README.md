@@ -3,6 +3,24 @@ Open source of our CVPR 2019 paper "3D Hand Shape and Pose Estimation from a Sin
 
 ![prediction example](teaser.png)
 
+### cpu -> gpu
+`eval_real_world_test.set.yaml`
+<br>
+![](https://i.imgur.com/rEJW9Hm.png)
+
+`real_world_testset.py`
+<br>
+![](https://i.imgur.com/WG30f1a.png)
+
+`vis.py`
+<br>
+![](https://i.imgur.com/qh1fM9X.png)
+
+`eval_script.py`
+<br>
+![](https://i.imgur.com/2wm4noC.png)
+
+
 ### history
 ```
  2000  git clone https://github.com/u0251077/hand-graph-cnn.git
