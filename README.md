@@ -5,31 +5,17 @@ Open source of our CVPR 2019 paper "3D Hand Shape and Pose Estimation from a Sin
 
 ### history
 ```
- 2045  virtualenv -p python2.7 ./venv
- 2046  source ./venv/bin/activate
- 2047  bash install_opendr.sh 
- 2048  pip install numpy
- 2049  bash install_opendr.sh 
- 2050  pip install opendr
- 2051  python
- 2052  pip install opendr
- 2053  pip install opendr==0.77
- 2054  pip install opendr==0.76
- 2055  pip install chumpy
- 2056  pip install --force-reinstall pip==19
- 2057  pip install chumpy
- 2058  pip install opendr
- 2059  cd ..
- 2060  python python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
- 2061  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
- 2062  pip install torch
- 2063  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
- 2065  pip install future
- 2066  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
- 2067  pip install yacs
- 2068  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
- 2069  pip install opencv-python
- 2070  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
+ 2000  git clone https://github.com/u0251077/hand-graph-cnn.git
+ 2001  virtualenv -p python2.7 ./venv
+ 2002  source ./venv/bin/activate
+ 2003  pip install numpy
+ 2004  pip install chumpy
+ 2005  pip install opendr
+ 2006  pip install torch
+ 2007  pip install future
+ 2008  pip install yacs
+ 2009  pip install opencv-python
+ 2010  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
  >>> success
 ```
 
