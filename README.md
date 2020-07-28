@@ -3,6 +3,36 @@ Open source of our CVPR 2019 paper "3D Hand Shape and Pose Estimation from a Sin
 
 ![prediction example](teaser.png)
 
+### history
+```
+ 2045  virtualenv -p python2.7 ./venv
+ 2046  source ./venv/bin/activate
+ 2047  bash install_opendr.sh 
+ 2048  pip install numpy
+ 2049  bash install_opendr.sh 
+ 2050  pip install opendr
+ 2051  python
+ 2052  pip install opendr
+ 2053  pip install opendr==0.77
+ 2054  pip install opendr==0.76
+ 2055  pip install chumpy
+ 2056  pip install --force-reinstall pip==19
+ 2057  pip install chumpy
+ 2058  pip install opendr
+ 2059  cd ..
+ 2060  python python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
+ 2061  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
+ 2062  pip install torch
+ 2063  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
+ 2065  pip install future
+ 2066  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
+ 2067  pip install yacs
+ 2068  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
+ 2069  pip install opencv-python
+ 2070  python eval_script.py --config-file "configs/eval_real_world_testset.yaml"
+ >>> success
+```
+
 ### Introduction
 This work is based on our [CVPR 2019 paper](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxnZWxpdWhhb250dXxneDo3ZjE0ZjY3OWUzYjJkYjA2). You can also check our [project webpage](https://sites.google.com/site/geliuhaontu/home/cvpr2019) and [supplementary video](https://youtu.be/NActf7FcrmI) for a deeper introduction.
 
